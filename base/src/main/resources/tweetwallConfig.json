@@ -87,7 +87,7 @@
         }
     },
 
-    "org.tweetwallfx.devoxx.cfp.stepengine.dataprovider.ScheduleDataProvider": {
+    "org.tweetwallfx.conference.stepengine.dataprovider.ScheduleDataProvider": {
         "initialDelay": 0,
         "scheduleDuration": 900
     },

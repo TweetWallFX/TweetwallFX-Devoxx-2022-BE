@@ -1,14 +1,14 @@
 {
     "tweetwall": {
-        "query": "<YOUR_QUERY>",
-        "title": "The JavaFX Exhibition Tweetwall for <YOUR_NAME_HERE>!",
+        "query": "#devoxx",
+        "title": "The JavaFX Exhibition Tweetwall for Devoxx BE 2022!",
         "stylesheetResource": "tweetwall.css"
     },
 
     "stepEngine": {
         "steps": [
             {
-                "stepClassName": "org.tweetwallfx.devoxx.cfp.stepengine.steps.ShowSchedule",
+                "stepClassName": "org.tweetwallfx.conference.stepengine.steps.ShowSchedule",
                 "config": {
                     "layoutX": 103,
                     "layoutY": 200,

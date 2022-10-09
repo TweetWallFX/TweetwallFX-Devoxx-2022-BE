@@ -1,7 +1,7 @@
 {
     "tweetwall": {
-        "query": "<YOUR_QUERY>",
-        "title": "The JavaFX Cinema Tweetwall for <YOUR_NAME_HERE>!",
+        "query": "#devoxx",
+        "title": "The JavaFX Cinema Tweetwall for Devoxx BE 2022!",
         "stylesheetResource": "tweetwall.css"
     },
 
@@ -11,13 +11,14 @@
                 "dataProviderClassName": "org.tweetwallfx.stepengine.dataproviders.TweetStreamDataProvider",
                 "config": {
                     "hideRetweets": true,
+                    "historySize": 50,
                     "maxTweets": 100
                 }
             }
         ],
         "steps": [
             {
-                "stepClassName": "org.tweetwallfx.devoxx.cfp.stepengine.steps.ShowSchedule",
+                "stepClassName": "org.tweetwallfx.conference.stepengine.steps.ShowSchedule",
                 "config": {
                     "layoutX": 35,
                     "layoutY": 215,
@@ -62,7 +63,7 @@
                 }
             },
             {
-                "stepClassName": "org.tweetwallfx.devoxx.cfp.stepengine.steps.ShowSchedule",
+                "stepClassName": "org.tweetwallfx.conference.stepengine.steps.ShowSchedule",
                 "config": {
                     "layoutX": 35,
                     "layoutY": 215,
@@ -106,7 +107,7 @@
                 }
             },
             {
-                "stepClassName": "org.tweetwallfx.devoxx.cfp.stepengine.steps.ShowSchedule",
+                "stepClassName": "org.tweetwallfx.conference.stepengine.steps.ShowSchedule",
                 "config": {
                     "layoutX": 35,
                     "layoutY": 215,

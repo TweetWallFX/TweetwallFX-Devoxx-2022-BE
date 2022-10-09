@@ -27,8 +27,8 @@ mainClassName = 'org.tweetwallfx.generic.Main'
 
 tasks.withType(JavaExec).configureEach {
     main mainClassName
-//    jvmArgs '-Dorg.tweetwallfx.scheduledata.day=friday'
-//    jvmArgs '-Dorg.tweetwallfx.scheduledata.time=10:00Z'
+//    jvmArgs '-Dorg.tweetwallfx.scheduledata.day=thursday'
+//    jvmArgs '-Dorg.tweetwallfx.scheduledata.time=18:00Z'
 }
 
 tasks.register('debug', JavaExec) {
