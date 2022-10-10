@@ -30,7 +30,7 @@ dependencies {
     implementation 'org.tweetwallfx:tweetwallfx-conference-spi:1.1.+'
     implementation 'org.tweetwallfx:tweetwallfx-utility:1.1.+'
 
-    runtimeOnly 'org.apache.logging.log4j:log4j-core:2.18.0'
+    runtimeOnly 'org.apache.logging.log4j:log4j-core:2.19.0'
 
     testImplementation 'org.tweetwallfx:tweetwallfx-conference-test:1.1.+'
 }
