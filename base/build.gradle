@@ -23,7 +23,7 @@
  */
 
 dependencies {
-    runtimeOnly 'org.apache.logging.log4j:log4j-core:2.18.0'
+    runtimeOnly 'org.apache.logging.log4j:log4j-core:2.19.0'
     runtimeOnly 'org.tweetwallfx:tweetwallfx-conference-stepengine:1.1.+'
     runtimeOnly 'org.tweetwallfx:tweetwallfx-google-cloud:1.1.+'
     runtimeOnly 'org.tweetwallfx:tweetwallfx-tweet-impl-twitter4j:1.1.+'
