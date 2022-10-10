@@ -10,6 +10,9 @@
                 "defaultResult": true,
                 "filterSteps": [
                     {
+                        "stepClassName": "org.tweetwallfx.conference.stepengine.filter.AcceptFromSpeakersFilterStep"
+                    },
+                    {
                         "stepClassName": "org.tweetwallfx.tweet.api.filter.AcceptFromSenderFilterStep"
                     },
                     {
@@ -40,6 +43,9 @@
         "userHandles": [
             "Devoxx"
         ]
+    },
+    "org.tweetwallfx.conference.stepengine.filter.AcceptFromSpeakersFilterStep$Config": {
+        "checkRetweeted": false
     },
     "org.tweetwallfx.tweet.api.filter.MaxHashtagLengthFilterStep$Config": {
         "checkRetweeted": true,
