@@ -1,8 +1,15 @@
 {
     "tweetwall": {
         "query": "#devoxx",
-        "title": "The JavaFX Hallway Tweetwall for Devoxx BE 2022!",
+        "title": "The JavaFX Welcome Tweetwall for Devoxx BE 2022!",
         "stylesheetResource": "tweetwall.css"
+    },
+
+    "configuration": {
+        "additionalConfigurationURLs": [
+            "https://raw.githubusercontent.com/mklaehn/TweetwallFX-Devoxx-2022-BE/configs/base/src/main/resources/tweetwallConfig_filters.json",
+            "https://raw.githubusercontent.com/mklaehn/TweetwallFX-Devoxx-2022-BE/configs/base/src/main/resources/tweetwallConfig_welcome.json"
+        ]
     },
 
     "stepEngine": {

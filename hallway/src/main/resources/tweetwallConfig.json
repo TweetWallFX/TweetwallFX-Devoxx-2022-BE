@@ -5,6 +5,13 @@
         "stylesheetResource": "tweetwall.css"
     },
 
+    "configuration": {
+        "additionalConfigurationURLs": [
+            "https://raw.githubusercontent.com/mklaehn/TweetwallFX-Devoxx-2022-BE/configs/base/src/main/resources/tweetwallConfig_filters.json",
+            "https://raw.githubusercontent.com/mklaehn/TweetwallFX-Devoxx-2022-BE/configs/base/src/main/resources/tweetwallConfig_hallway.json"
+        ]
+    },
+
     "stepEngine": {
         "steps": [
             {
