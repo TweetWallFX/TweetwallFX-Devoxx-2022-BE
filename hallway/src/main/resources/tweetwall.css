@@ -23,27 +23,12 @@
  */
 
 @font-face {
-    font-family: 'BebasNeue';
-    src: url('BebasNeue.otf');
-}
-
-@font-face {
-    font-family: 'BebasNeue Bold';
-    src: url('BebasNeue-Bold.otf');
-}
-
-@font-face {
-    font-family: 'Noto Emoji';
-    src: url('NotoEmoji-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'Twitter Color Emoji';
-    src: url('TwitterColorEmoji-SVGinOT.ttf');
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.ttf');
 }
 
 .root {
-    -fx-font-family: 'System';
+    -fx-font-family: 'Roboto';
     devoxx_gradient: linear-gradient(to bottom right, #e55630, #f68b1f);
 }
 
