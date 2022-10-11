@@ -20,6 +20,7 @@
                 "config": {
                     "layoutX": 103,
                     "layoutY": 200,
+                    "width": 1700,
                     "sessionHeight": 150,
                     "showAvatar": true,
                     "avatarArcSize": 16,
@@ -45,9 +46,9 @@
             {
                 "stepClassName": "org.tweetwallfx.controls.steps.FadeInCloudStep",
                 "config": {
-                    "layoutX": 1100,
-                    "layoutY": 300,
-                    "width": 800,
+                    "layoutX": 103,
+                    "layoutY": 200,
+                    "width": 1700,
                     "height": 600,
                     "stepDuration": 30000
                 }
