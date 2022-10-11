@@ -8,7 +8,8 @@
     "configuration": {
         "additionalConfigurationURLs": [
             "https://raw.githubusercontent.com/mklaehn/TweetwallFX-Devoxx-2022-BE/configs/base/src/main/resources/tweetwallConfig_filters.json",
-            "https://raw.githubusercontent.com/mklaehn/TweetwallFX-Devoxx-2022-BE/configs/base/src/main/resources/tweetwallConfig_exhibition.json"
+            "https://raw.githubusercontent.com/mklaehn/TweetwallFX-Devoxx-2022-BE/configs/base/src/main/resources/tweetwallConfig_exhibition_google.json",
+            "https://raw.githubusercontent.com/mklaehn/TweetwallFX-Devoxx-2022-BE/configs/base/src/main/resources/tweetwallConfig_exhibition_twitter.json"
         ]
     },
 
