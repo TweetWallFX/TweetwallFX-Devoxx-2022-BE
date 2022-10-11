@@ -28,9 +28,9 @@
                 "stepClassName": "org.tweetwallfx.conference.stepengine.steps.ShowSchedule",
                 "config": {
                     "layoutX": 35,
-                    "layoutY": 215,
+                    "layoutY": 140,
                     "width": 980,
-                    "sessionHeight": 150,
+                    "sessionHeight": 145,
                     "showAvatar": true,
                     "avatarArcSize": 16,
                     "avatarSize": 50,
@@ -43,8 +43,8 @@
                 "stepClassName": "org.tweetwallfx.controls.steps.InfiniteScrollingTweetsStep",
                 "config": {
                     "layoutX": 1050,
-                    "layoutY": 215,
-                    "height": 630,
+                    "layoutY": 140,
+                    "height": 700,
                     "tweetGap": 10,
                     "tweetWidth": 200,
                     "stepDuration": 5000,
@@ -73,7 +73,7 @@
                 "stepClassName": "org.tweetwallfx.conference.stepengine.steps.ShowTopRated",
                 "config": {
                     "layoutX": 35,
-                    "layoutY": 215,
+                    "layoutY": 140,
                     "topVotedType": "TODAY",
                     "stepDuration": 500
                 }
@@ -95,9 +95,9 @@
                 "stepClassName": "org.tweetwallfx.controls.steps.FadeInCloudStep",
                 "config": {
                     "layoutX": 1100,
-                    "layoutY": 210,
+                    "layoutY": 140,
                     "width": 800,
-                    "height": 550,
+                    "height": 620,
                     "stepDuration": 15000
                 }
             },
@@ -111,7 +111,7 @@
                 "stepClassName": "org.tweetwallfx.conference.stepengine.steps.ShowTopRated",
                 "config": {
                     "layoutX": 35,
-                    "layoutY": 215,
+                    "layoutY": 140,
                     "topVotedType": "WEEK",
                     "stepDuration": 500
                 }
