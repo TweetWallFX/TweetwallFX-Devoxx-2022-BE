@@ -1,6 +1,6 @@
 {
     "conferenceClient": {
         "eventBaseUri": "https://dvbe22.cfp.dev/api/public/",
-        "votingResultsToken": "INTENTIONALLY_BAD"
+        "votingResultsToken": "ZG9udHNoYXJldGhpc2luZm8="
     }
 }

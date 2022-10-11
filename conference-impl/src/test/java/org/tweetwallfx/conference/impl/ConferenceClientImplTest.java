@@ -35,7 +35,7 @@ public class ConferenceClientImplTest extends ConferenceClientTestBase {
                 .getConfigTyped(
                         ConferenceClientSettings.CONFIG_KEY,
                         ConferenceClientSettings.class)
-                .getEventBaseUri() + "/rooms");
+                .getEventBaseUri() + "rooms");
     }
 
     public ConferenceClientImplTest() {

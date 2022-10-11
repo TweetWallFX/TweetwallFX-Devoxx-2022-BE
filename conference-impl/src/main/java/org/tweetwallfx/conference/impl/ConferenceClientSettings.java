@@ -59,7 +59,9 @@ public class ConferenceClientSettings {
      */
     public void setBaseEventUri(final String eventBaseUri) {
         Objects.requireNonNull(eventBaseUri, "eventBaseUri must not be null!");
-        this.eventBaseUri = eventBaseUri;
+        this.eventBaseUri = eventBaseUri.endsWith("/")
+                ? eventBaseUri
+                : eventBaseUri + '/';
     }
 
     /**
