@@ -35,8 +35,8 @@ import java.util.stream.Collectors;
 
 import jakarta.ws.rs.core.GenericType;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.tweetwallfx.conference.api.ConferenceClient;
 import org.tweetwallfx.conference.api.Identifiable;
 import org.tweetwallfx.conference.api.RatedTalk;
@@ -60,7 +60,7 @@ import org.tweetwallfx.config.Configuration;
 
 public class ConferenceClientImpl implements ConferenceClient, RatingClient {
 
-    private static final Logger LOG = LogManager.getLogger();
+    private static final Logger LOG = LoggerFactory.getLogger(ConferenceClientImpl.class);
     private final ConferenceClientSettings config;
     private final Map<String, SessionType> sessionTypes;
     private final Map<String, Room> rooms;
